@@ -1,0 +1,245 @@
+
+/* MEDIAS QUERY */
+
+@media(max-width:1720px){
+    section.header-main{
+        background-size: cover;
+    }
+}
+
+@media(max-width:1270px){
+    .etapas__single .etapas__img > p{
+        padding-left: 22px;
+    }
+}
+
+@media(max-width:1230px){
+    .etapas__single .etapas__img > p{
+        padding-left: 20px;
+    }
+
+    .etapas__img img {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+
+
+@media(max-width:1150px){
+    div.sobre2{
+        margin-top: 60px;
+    }
+    
+    div.sobre-1,div.sobre-2{
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    div.sobre-1  img{
+        max-width: 550px;
+        width: 100%;
+    }
+
+    div.sobre-2 h2,p{
+        margin: 25px auto;
+        max-width: 750px;
+    }
+
+    section.depoimento{
+        top: 0;
+    }
+
+    section.etapas > .container{
+        max-width: 1000px;
+    }
+
+    .etapas__passos {
+        margin-bottom: 14px;
+    }
+
+    .etapas__single .etapas__img > p{
+        padding-top: 80px;
+        padding-left: 10px;
+    }
+
+    .etapas__img img {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+@media(max-width:1010px){
+    .etapas__single .etapas__img > p{
+        padding-top: 80px;
+        padding-left: 10px;
+    }
+
+    .etapas__img img {
+        width: 100%;
+        max-width: 230px;
+    }
+}
+
+
+/* APLICAR MENU MOBILE*/
+@Media(max-width:970px){
+    nav.desktop,.tel-header{
+        display: none;
+    }
+    section.header-main{
+        min-height: 650px;
+    }
+
+    .etapas__single{
+        float: none;
+        width: 100%;
+    }
+
+    section.etapas > .container{
+        max-width: 700px;
+    }
+
+    section.etapas h2 {
+        margin-bottom: 60px;
+    }
+
+    .etapas__img img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .etapas__single .etapas__img > p{
+        padding-top: 80px;
+        padding-left: 30px;
+    }
+    
+    div.circle .line{
+        height: 24px;
+    }
+
+    .ajuste{
+        padding: 0 10px;
+    }
+
+    .diferenca__single{
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .border{
+        border-right: 0;
+    }
+
+    section.diferencas{
+        padding: 0;
+    }
+
+    nav.mobile{
+        display: block;
+    }
+
+    section.contato > .container {
+        max-width: 600px;
+    }
+}
+
+
+@Media(max-width:900px){
+    .conteudo-header .chamada-header{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .conteudo-header .chamada-header h2,.conteudo-header .chamada-header p{
+        max-width: 100%;
+    }
+
+    .conteudo-header .chamada-header p{
+        margin-bottom: 20px;
+    }
+
+    .conteudo-header .fotos-header{
+        display: none;
+    }
+
+    .diferencial-box{
+        width: 100%;
+        text-align: center;
+    }
+
+    .diferencial-box p{
+        margin: 0 auto;
+        max-width: 600px;
+    }
+}
+
+@media(max-width:768px){
+    nav.mobile ul{
+        width: 40%;
+    }
+}
+
+@media(max-width:550px){
+    .etapas__img{
+        display: none;
+    }
+
+    .ajuste {
+        padding: 0 2px;
+    }
+
+    .etapas__texto {
+        padding: 0 1%;
+    }
+
+    .etapas__passos .circle{
+        width: 80px;
+        height: 80px;
+    }
+
+    div.sobre-2 h2, p {
+        margin: 5px auto;
+        max-width: 750px;
+    }
+
+    div.circle .line{
+        top: 80px;
+        height: 14px;
+    }
+}
+
+@media(max-width:472px){
+    div.circle .line{
+        top: 70px;
+        height: 30px;
+    }
+
+    .etapas__passos .circle{
+        width: 70px;
+        height: 70px;
+    }
+
+    nav.mobile ul{
+        width: 50%;
+    }
+
+}
+
+@media(max-width:336px){
+    .etapas__texto {
+        float: left;
+        width: calc(100% - 80px);
+    }
+
+    nav.mobile ul{
+        width: 65%;
+    }
+}
+
+@media(max-width:315px){
+    div.circle .line{
+        height: 50px;
+    }
+}
