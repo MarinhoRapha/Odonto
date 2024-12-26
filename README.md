@@ -1,6 +1,6 @@
 ## 🚨 Sobre 
 - <h2> Projeto, do curso de programação, de um site simples onepage para um consultorio odontologico</h2>
-- <h3><a href="https://marinhorapha.github.io/SpiderHomens/">Clique aqui e confira!</a></h3>
+- <h3><a href="https://marinhorapha.github.io/Odonto/">Clique aqui e confira!</a></h3>
 
 ## 📜 Ferramentas
 
